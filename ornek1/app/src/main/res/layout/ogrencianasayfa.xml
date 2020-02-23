@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context=".AnasMainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alwaysDrawnWithCache="false"
+            android:animateLayoutChanges="false"
+            android:animationCache="false"
+            android:background="#459C27B0"
+            android:baselineAligned="false"
+            android:divider="@drawable/ic_launcher_background"
+            android:fadeScrollbars="true"
+            android:focusable="auto"
+            android:focusableInTouchMode="true"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            android:orientation="vertical"
+            android:transformPivotX="210dp"
+            android:transformPivotY="210dp"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+        <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                app:srcCompat="@mipmap/logofelan" />
+
+        <TextView
+                android:id="@+id/hosisim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal"
+                android:text="Hoşgeldin Sporcu"
+                android:textColor="#F0C21313"
+                android:textSize="18sp" />
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Ne İşlem Yapmak İstersin?"
+                android:textColor="#E2AD4242"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        <Button
+                android:id="@+id/program"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF9800"
+                android:text="@string/program"
+                android:textStyle="bold" />
+
+        <Button
+                android:id="@+id/bilgiler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9C27B0"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/bilgiler"
+                android:textColor="#F44336"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <Button
+                android:id="@+id/cikis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A70D0D"
+                android:text="@string/cıkıs"
+                android:textColor="#C0CA33"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/button_toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cihazlar" />
+
+            <Button
+                    android:id="@+id/button_pair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bluetooth" />
+
+        </LinearLayout>
+
+        <ListView
+                android:id="@+id/device_list"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:translationX="100dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

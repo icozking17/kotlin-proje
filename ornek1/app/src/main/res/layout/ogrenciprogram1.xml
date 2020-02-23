@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OgrenciProgramMainActivity1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:addStatesFromChildren="false"
+        android:background="#A183468D"
+        android:isScrollContainer="true"
+        android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                app:srcCompat="@mipmap/portakalweb"
+                tools:srcCompat="@mipmap/logofelan" />
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="191dp"
+                android:baselineAligned="false"
+                android:filterTouchesWhenObscured="false">
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:addStatesFromChildren="false"
+                    android:alwaysDrawnWithCache="false"
+                    android:background="#00701A1A"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="59dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Pzrts"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="55dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Hidrolik Plates
+                         (08.00) (09.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="59dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Hidrolik Plates
+                          (09.00) (10.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="59dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Hidrolik Plates
+                          (10.00) (11.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="59dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Hidrolik Plates
+                          (11.00) (12.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp">
+
+                <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="59dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Salı"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="66dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Reform Fitness
+                         (08.00) (09.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="44dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Reform Fitness
+                         (09.00) (10.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="54dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Reform Fitness
+                         (10.00) (11.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="54dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Reform Fitness
+                         (11.00) (12.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp">
+
+                <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="59dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Çrşmb"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="52dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Zumba
+                         (08.00) (09.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="52dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Zumba
+                         (09.00) (10.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="52dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Zumba
+                         (10.00) (11.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="52dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Zumba
+                        (11.00) (12.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="59dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Prş"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hidrolik Plates
+                           (08.00) (09.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hidrolik Plates
+                         (09.00) (10.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hidrolik Plates
+                         (10.00) (11.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hidrolik Plates
+                        (11.00) (12.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp">
+
+                <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="59dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Cum"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hidrolik Plates
+                        (08.00) (09.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hidrolik Plates
+                         (09.00) (10.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hidrolik Plates
+                          (10.00) (11.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hidrolik Plates
+                         (11.00) (12.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="59dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Cmrts"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="26dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Reform Fitness
+                         (08.00) (09.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="26dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Reform Fitness
+                         (09.00) (10.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="26dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Reform Fitness
+                         (09.00) (10.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="26dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Reform Fitness
+                         (10.00) (11.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="59dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Pzr"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="26dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Zumba
+                        (08.00) (09.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="26dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Zumba
+                         (09.00) (10.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="26dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Zumba
+                          (10.00) (11.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="26dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|center_horizontal"
+                        android:text="Zumba
+                         (11.00) (12.00)"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+                android:id="@+id/s2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF9800"
+                android:text="@string/sayfa2"
+                android:textColor="#E60D0D"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        <Button
+                android:id="@+id/geri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E61818"
+                android:text="@string/geri"
+                android:textColor="#FDD835"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

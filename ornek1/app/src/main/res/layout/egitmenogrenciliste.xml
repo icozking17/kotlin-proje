@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context=".EgitmenAnasayfaMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alwaysDrawnWithCache="false"
+        android:animateLayoutChanges="false"
+        android:animationCache="false"
+        android:background="#459C27B0"
+        android:baselineAligned="false"
+        android:divider="@drawable/ic_launcher_background"
+        android:fadeScrollbars="true"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:isScrollContainer="false"
+        android:keepScreenOn="false"
+        android:orientation="vertical"
+        android:transformPivotX="210dp"
+        android:transformPivotY="210dp"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+        <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                app:srcCompat="@mipmap/logofelan" />
+
+        <TextView
+                android:id="@+id/liste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal"
+                android:text="Öğrenci Listesi"
+                android:textColor="#F0C21313"
+                android:textSize="18sp" />
+
+        <LinearLayout
+                android:id="@+id/Ana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+        </LinearLayout>
+        <Button
+                android:id="@+id/anasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CDDC39"
+                android:text="@string/anasyf" />
+
+
+    </LinearLayout>
+</LinearLayout>

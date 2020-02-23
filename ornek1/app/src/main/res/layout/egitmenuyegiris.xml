@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EgitmenuyegirisMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#469C27B0"
+        android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                app:srcCompat="@mipmap/portakalweb"
+                tools:srcCompat="@mipmap/logofelan" />
+
+        <EditText
+                android:id="@+id/kuladi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/kaddi"
+                android:inputType="textPersonName"
+                android:translationY="12dp" />
+
+        <EditText
+                android:id="@+id/sifre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/sifre"
+                android:inputType="textPassword"
+                android:translationY="12dp" />
+
+        <Button
+                android:id="@+id/giris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#97FF00"
+                android:text="@string/giris"
+                android:textColor="#F44336"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:translationY="12dp" />
+
+        <Button
+                android:id="@+id/geri"
+                android:layout_width="114dp"
+                android:layout_height="77dp"
+                android:background="@mipmap/turuncusolok"
+                android:text="@string/geri"
+                android:textSize="10sp"
+                android:translationX="210dp"
+                android:translationY="12dp" />
+
+    </LinearLayout>
+</LinearLayout>

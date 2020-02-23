@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#978E24AA"
+        android:orientation="vertical">
+
+
+    <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="123dp"
+            app:srcCompat="@mipmap/logofelan" />
+
+    <TextView
+            android:id="@+id/has"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Haftalık Adım Sayınız"
+            android:textColor="#F8E43131"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Haftalık Adım Sayınız" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/tarih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Tarih"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/adim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Adım"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <Button
+            android:id="@+id/anasayfa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7CB342"
+            android:text="@string/anasyf"
+            android:textColor="#3949AB" />
+
+    <Button
+            android:id="@+id/geri"
+            android:layout_width="114dp"
+            android:layout_height="77dp"
+            android:background="@mipmap/turuncusolok"
+            android:text="@string/geri"
+            android:translationX="210dp" />
+
+
+</LinearLayout>

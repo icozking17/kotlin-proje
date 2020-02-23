@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".OgrencigirisMainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alwaysDrawnWithCache="false"
+            android:animateLayoutChanges="false"
+            android:animationCache="false"
+            android:background="#459C27B0"
+            android:baselineAligned="false"
+            android:divider="@drawable/ic_launcher_background"
+            android:fadeScrollbars="true"
+            android:focusable="auto"
+            android:focusableInTouchMode="true"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            android:orientation="vertical"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+        <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="289dp"
+                android:layout_height="133dp"
+                android:background="@mipmap/logofelan"
+                android:translationX="10dp" />
+
+        <Button
+                android:id="@+id/yenik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#97FF00"
+                android:bufferType="spannable"
+                android:cursorVisible="false"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/yenikayit"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:translationY="30dp" />
+
+        <Button
+                android:id="@+id/uyeg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9C27B0"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/varolan"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:translationY="30dp" />
+
+        <Button
+                android:id="@+id/geri"
+                android:layout_width="114dp"
+                android:layout_height="77dp"
+                android:background="@mipmap/turuncusolok"
+                android:text="@string/geri"
+                android:textSize="10sp"
+                android:translationX="210dp"
+                android:translationY="30dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ogrenciyenikyt1MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#469C27B0"
+        android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                app:srcCompat="@mipmap/portakalweb"
+                tools:srcCompat="@mipmap/logofelan" />
+
+        <EditText
+                android:id="@+id/yas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/yas"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/boy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/boy"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/kilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/kilo"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <Button
+                android:id="@+id/giris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CDDC39"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Kayıt Ol"
+                android:textSize="18sp" />
+
+        <Button
+                android:id="@+id/geri"
+                android:layout_width="114dp"
+                android:layout_height="77dp"
+                android:background="@mipmap/turuncusolok"
+                android:text="@string/geri"
+                android:textSize="10sp"
+                android:translationX="210dp" />
+
+    </LinearLayout>
+</LinearLayout>
